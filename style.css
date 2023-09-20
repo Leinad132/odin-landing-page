@@ -1,0 +1,52 @@
+.header{
+    background-color: #1f2937;
+}
+
+
+
+.header-links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+     height: 300px;
+    color: red;
+   
+   
+    
+}
+
+#header-logo{
+    display: flex;
+    margin-right: 150px;
+    align-items: left;
+    color: white;
+    font-size: 18px;
+}
+
+.main-title{
+    flex-direction: column;
+    display: flex;
+    color: #f9faf8;
+    margin-left: 120px;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.main-title small{
+    font-size: 18px;
+}
+
+#sign-in-button{
+    padding: 10px 20px;
+    margin: auto;
+    display: flex;
+    margin-left: 60px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+
+
