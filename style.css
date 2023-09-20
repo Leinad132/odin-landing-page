@@ -24,17 +24,30 @@
 }
 
 .main-title{
-    flex-direction: column;
     display: flex;
-    color: #f9faf8;
-    margin-left: 120px;
-    font-size: 48px;
-    font-weight: 700;
+    margin-left: 100px;
 
 }
 
-.main-title small{
+
+.main-title h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+
+}
+
+#main-picture{
+    height: 300px;
+    width: 600px;
+    margin-left: 50px;
+}
+
+.main-title p{
     font-size: 18px;
+    margin-top: auto;
+    margin-right: 300px;
+    color:#e5e7eb;
 }
 
 #sign-in-button{
@@ -47,6 +60,9 @@
     border-radius: 10px;
     
 }
+
+
+
 
 
 
