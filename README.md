@@ -1,1 +1,1 @@
-# odin-landing-page
+A landing page using the lessons on HTML and CSS on the Odin Project. It took a little bit to get used to flexbox and structuring the website to look like the model. I had to rewrite my code entirely after I realized I was not going to get the desired result the inital way I intended. Going back to the lessons and revisiting the theory helped a lot. This template can be used to showcase a business services, have people sign up for a product etc. 
