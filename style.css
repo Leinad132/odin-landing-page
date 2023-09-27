@@ -5,8 +5,9 @@
 
 .nav-bar{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    
+    
 }
 
 #nav-links a{
@@ -17,14 +18,31 @@
 #header-logo{
     font-size: 24px;
     color: #e5e7eb;
+    margin-left: 100px;
 
 }
 
 .heading{
     display: flex;
     justify-content: center;
+    margin-top: 30px;
     
 
+}
+
+#sign-in{
+    border-radius: 5px;
+    background-color:#3882f6 ;
+    color: white;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px transparent;
+} 
+
+.title{
+    color: #f9faf8 ;
+    margin-right: 100px;
 }
 
 .heading img{
@@ -35,6 +53,13 @@
 .section-2  {
     align-items: center;
 }
+
+.section-2 h2{
+    display: flex;
+    justify-content: center;
+
+}
+
 .box-img{
     display: flex;
     justify-content: center;
