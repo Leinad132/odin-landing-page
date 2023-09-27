@@ -13,6 +13,7 @@
 #nav-links a{
    margin-right: 20px;
    color:white;
+   text-decoration: none;
 }
 
 #header-logo{
@@ -62,7 +63,7 @@
 
 .box-img{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .box-img img{
@@ -70,7 +71,7 @@
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border: 4px solid #191c13;
+    border: 4px solid transparent;
     border-radius: 15px;
     margin: 5px 20px 0px 20px;
 }
@@ -140,9 +141,15 @@
     padding-right: 30px;
 }
 
-.end{
-    background-color: #1f2937;
-    
+
+.copyright-section{
+    height: 40px;
+    background-color:#1f2937 ;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
